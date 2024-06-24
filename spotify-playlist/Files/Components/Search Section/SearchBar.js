@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import SearchButton from 'spotify-playlist/Files/Components/Search Section/SearchButton.js';
 
 function SearchBar() {
     const [userInput, setUserInput] = useState("");
