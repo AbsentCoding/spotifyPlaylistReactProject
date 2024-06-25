@@ -4,11 +4,16 @@ function SearchSubmit() {
     
     const[submit, setSubmit] = useState("")
     
-    function onSbutmit() {
-
+    function handleSubmit(e) {
+        setSubmit(onclick)
     };
 
     return (
+        <>
+            <form className="SearchSubmit" onSubmit={handleSubmit}>
+                <input type="submit" value="Search" />
+            </form>
+        </>
 
     );
 };

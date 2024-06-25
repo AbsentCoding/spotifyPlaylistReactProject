@@ -14,11 +14,11 @@ function SearchBar() {
 
     return (
         <>
-            <div>
-                <form onSubmit={handleSubmit}>
-                    
-                </form>
-            </div>
+            
+            <form onSubmit={handleSubmit}>
+                
+            </form>
+            
         </>
     );
 };
