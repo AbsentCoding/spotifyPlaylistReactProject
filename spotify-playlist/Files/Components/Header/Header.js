@@ -3,7 +3,7 @@ import styles from 'spotify-playlist\Files\Components\Modules CSS\Header.module.
 
 function Header () {
     return (
-        <div className={styles.header}>
+        <div className={styles.headerContainer}>
             <h1>Jammming</h1>
         </div>
     );

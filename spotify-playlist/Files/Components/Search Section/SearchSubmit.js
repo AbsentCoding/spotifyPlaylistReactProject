@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 
 function SearchSubmit() {
-    
     const[submit, setSubmit] = useState("")
     
     function handleSubmit(e) {
@@ -11,6 +10,7 @@ function SearchSubmit() {
     return (
         <>
             <form className="SearchSubmit" onSubmit={handleSubmit}>
+                <label>Submit</label>
                 <input type="submit" value="Search" />
             </form>
         </>

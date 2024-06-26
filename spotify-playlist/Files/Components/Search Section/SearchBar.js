@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import SearchButton from 'spotify-playlist/Files/Components/Search Section/SearchButton.js';
+import SearchSubmit from 'spotify-playlist/Files/Components/Search Section/SearchButton.js';
+import styles from 'spotify-playlist/Files/Components/Modules CSS/SearchBar.module.css'
 
 function SearchBar() {
     const [userInput, setUserInput] = useState("");
@@ -14,11 +15,12 @@ function SearchBar() {
 
     return (
         <>
-            
-            <form onSubmit={handleSubmit}>
-                
-            </form>
-            
+            <div className={styles.searchContainter}>
+                <form onSubmit={handleSubmit}>
+                    <label>Search Here</label>
+                    <input type="text"></input>
+                </form>
+            </div> 
         </>
     );
 };
