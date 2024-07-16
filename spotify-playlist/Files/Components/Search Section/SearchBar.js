@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import SearchSubmit from 'spotify-playlist/Files/Components/Search Section/SearchButton.js';
+import SearchSubmit from 'spotify-playlist/Files/Components/Search Section/SearchSubmit.js';
 import styles from 'spotify-playlist/Files/Components/Modules CSS/SearchBar.module.css'
 
 function SearchBar() {
