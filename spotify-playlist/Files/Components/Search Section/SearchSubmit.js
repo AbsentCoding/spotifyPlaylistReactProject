@@ -4,7 +4,7 @@ function SearchSubmit() {
     const[submit, setSubmit] = useState("")
     
     function handleSubmit(e) {
-        setSubmit(onclick.)
+        setSubmit()
     };
 
     return (
